@@ -1,0 +1,8 @@
+name: ObelouixUltimate
+main: fr.obelouix.ultimate.ObelouixUltimate
+bootstrap: fr.obelouix.ultimate.ObelouixPluginBootstrap
+loader: fr.obelouix.ultimate.ObelouixPluginLoader
+version: "1.0-SNAPSHOT"
+author: Obelouix
+api-version: "1.19"
+folia-supported: true
