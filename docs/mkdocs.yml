@@ -1,4 +1,5 @@
 site_name: Obelouix-Ultimate plugin documentation
+site_url: https://obelouix.github.io/Obelouix-Ultimate-Folia/
 theme:
   name: material
   palette:
