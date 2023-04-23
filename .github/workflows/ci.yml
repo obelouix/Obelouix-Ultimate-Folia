@@ -9,7 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - working-directory: "docs/**"
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
@@ -19,4 +18,4 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --config-file ../Obelouix-Ultimate-Folia/docs/mkdocs.yml --force
